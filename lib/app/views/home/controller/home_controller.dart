@@ -28,6 +28,16 @@ class HomeController extends GetxController {
           'Unhappy with his overall life, Steven Schoichet (Adrien Brody) decides to pursue his dream to be a professional ventriloquist. His family is neither supportive nor particularly critical. ',
       rating: 4,
       duration: '2h 45min',
+    ),
+    MovieModel(
+      title: 'Joker',
+      posterUrl: [
+        "https://m.media-amazon.com/images/I/71Jxq2p5YWL._AC_UF1000,1000_QL80_.jpg",
+      ],
+      synopsis:
+          'When their mother dies, Danny and Jack must fend for themselves. Danny escapes with sex, drugs and music and Jack turns a mannequin into a surrogate parent. Finally, they must come to terms with each other.',
+      rating: 4.5,
+      duration: '3h 45min',
     )
   ].obs;
   RxString selectedTime = 'Morning'.obs;
